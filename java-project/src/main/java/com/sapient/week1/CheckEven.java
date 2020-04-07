@@ -8,11 +8,11 @@ public class CheckEven
 {
     public static void main (String args[]){
 	Scanner scan = new Scanner(System.in);
-	System.out.print("Enter the number for check odd or even: ");
 	int count=1;
 	int num;
 	while (count <= 5) {
-           num=scan.nextInt();
+           System.out.print("Enter the number for check odd or even: ");   
+       	   num=scan.nextInt();
            count = count + 1; 	
 	   check(num);
 	}

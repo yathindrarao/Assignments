@@ -1,0 +1,23 @@
+package javaFirstEclipse;
+
+public class MultiplicationTable {
+
+	private int table;
+
+	public MultiplicationTable(int table) {
+		this.table = table;
+	}
+
+	void print(int x) {
+		for (int i = 1; i <= 10; i++)
+			System.out.printf("%d * %d = %d", 5, i, 5 * i).println();
+
+	}
+
+	int print() {
+		for (int i = 1; i <= 10; i++)
+			System.out.printf("%d * %d = %d", table, i, table * i).println();
+		return 0;
+	}
+
+}

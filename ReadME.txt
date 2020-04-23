@@ -1,1 +1,1 @@
-Assignment is in the SapientJavaFirst folder
+Week 3 assignment is completed

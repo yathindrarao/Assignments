@@ -1,0 +1,15 @@
+>>use mongotest
+>>db.Employee.insertMany(JSON data)
+  using this command inserted the data of all the 12 employees
+
+assignment
+1) db.Employee.find().pretty()
+2) db.Employee.find({},{fname:1}).pretty()
+3) db.Employee.find({},{_id:0}).pretty()
+4) db.Employee.find().pretty().limit(5)
+5) db.Employee.find().pretty().skip(5).limit(5)
+6) db.Employee.find({"city":"Gurgoan"}).pretty()
+7) db.Employee.find({ "salary.0": { $lt: 20000 } }).pretty()
+8) db.Employee.find({ "salary.0": { $lt: 20000} , "city":"Gurgoan"}).pretty()
+9) db.Employee.find({ }, { "salary.0": 1,_id : 0}).pretty()
+10) db.Employee.find({"city":"Gurgoan"} ).pretty().count()
